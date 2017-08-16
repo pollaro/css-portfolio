@@ -5,24 +5,48 @@
 
 #background{
     background-color: #eaeaea;
-    margin: 0px auto;
+    margin: 00px auto;
     width: 700px;
 }
 
 #main_content{
     background-color: #4f2238;
     width: 700px;
-    height: 1200px;
+    /*height: 1200px;*/
     display: inline-block;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    padding-bottom: 10px;
+
+}
+
+.pageHeader{
+    display: inline-block;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.pageFooter{
+    text-align: center;
+}
+
+.name{
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.slogan{
+    width: 360px;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: auto;
+    text-align: right;
 }
 
 .topRow{
     margin: 0px auto;
 }
 
-#myPhoto{g
+#myPhoto{
     display: inline-block;
     width: 300px;
     height: 200px;
@@ -76,13 +100,34 @@
 .techs{
     display: inline-block;
     width:202px;
-    height: 200px;
+    /*height: 200px;*/
     background-color: white;
     margin-left: 20px;
     vertical-align: top;
 }
 
-.techImgs{
+.linkDiv{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+    font-size: 8pt;
+    text-align: center;
+}
+
+.proImgs{
     width: 202px;
     height: auto;
+}
+
+.techImgs{
+    width: 25px;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    padding-left: 9px;
+}
+
+.summary{
+    font-size: 12px;
 }
